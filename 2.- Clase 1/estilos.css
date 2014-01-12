@@ -8,12 +8,10 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 a
 {
 	color:#DD4F24;
 }
-
 body
 {
 	background: #EFEFEF;
@@ -22,7 +20,6 @@ body
 	font-size: 16px;
 	margin: 0;
 }
-
 header
 {
 	background: #434343;
@@ -30,13 +27,11 @@ header
 	margin: 0;
 	padding: 0.5em;
 }
-
 header figure,header h1
 {
 	display: inline-block;
 	vertical-align: top;
 }
-
 header h1
 {
 	font-size: 20px;
@@ -44,13 +39,11 @@ header h1
 	margin: 1em 0 0 1em;
 	width: 60%;
 }
-
 header #avatar
 {
 	float: right;
 	margin: 1em 1em 0 0;
 }
-
 header #avatar figcaption
 {
 	background: #22BCE0;
@@ -58,7 +51,6 @@ header #avatar figcaption
 	height: 50px;
 	line-height: 50px;
 }
-
 header #avatar figcaption:after
 {
 	content: "\e600";
@@ -66,85 +58,79 @@ header #avatar figcaption:after
 	font-size: 0.7em;
 	opacity: 0.5;
 }
-
 header #avatar img
 {
 	float: left;
 	width: 50px;
 }
-
 header #logo img 
 {
 	width: 80px;
 }
-
 nav
 {
 	background: #878787;
 	font-size: 09.em;
 }
-
 nav ul li
 {
 	display: inline-block;
 	margin: 0 1.2em 0 0;
 	vertical-align: top;
 }
-
 nav ul li a
 {
 	color:white;
 	display: block;
 	padding: 0.5em 0;
 }
-
 nav ul 
 {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
-nav #flechita_nav:after
-{
-	content: "\e604";
-	font-family: "icomoon";
-}
-
 nav #flechita_nav a
 {
 	background: #22BCE0;
 	padding: 0.5em 0;
 	text-decoration: none;
 }
-
 nav #flechita_nav a:after
 {
 	content: "\e602";
 	font-family: "icomoon";
 	opacity: 0.6;
 }
-
 nav #publicar_nav
 {
+	background: #DD4F24;
 	float: right;
 	margin-right: 0;
-	padding-right: 1.5em;
+	padding-right: 0.8em;
+	position: relative;
 }
-
+nav #publicar_nav:after
+{
+	color: rgba(255,255,255,0.5);
+	content: "\e604";
+	font-family: "icomoon";
+	font-size: 1.8em;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
 nav #publicar_nav a
 {
-	background: #DD4F24;
+	
 	display: inline-block;
 	padding: 0.5em 1em;
 	text-decoration: none;
 }
-
 #contenido
 {
 	margin: 1em;
 }
-
 #contenido .item
 {
 	background: white;
@@ -153,7 +139,16 @@ nav #publicar_nav a
 	min-height: 128px;
 	position: relative;
 }
-
+#contenido .item .datos_item .guardar_item
+{
+	text-decoration: none;
+}
+#contenido .item .datos_item .guardar_item:after
+{
+	color: #fD5;
+	content: "\e605";
+	font-family: "icomoon";
+}
 #contenido .item .datos_item .tag_item
 {
 	background: #22BCE0;
@@ -162,38 +157,32 @@ nav #publicar_nav a
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 }
-
 #contenido .item p 
 {
 	color: #7A7A7A;
 	font-style: 0.9em;
 
 }
-
 #contenido .item .imagen_item
 {
 	float: left;
 	margin: 0 1em 0 0;
 }
-
 #contenido .item .imagen_item img
 {
 	width: 96px;
 }
-
 #contenido .item .titulo_item
 {
 	font-size: 1em;
 	font-style: italic;
 	padding: 0.5em 0.5em 0;
 }
-
 #contenido .item .titulo_item a
 {
 	color: #444;
 	text-decoration: none;
 }
-
 #contenido .item .votacion
 {
 	background: white;
@@ -206,12 +195,10 @@ nav #publicar_nav a
 	width: 96px;
 
 }
-
 #contenido .item .votacion a
 {
 	text-decoration: none;
 }
-
 #contenido .item .votacion .up:after,
 #contenido .item .votacion .down:after
 {
@@ -219,13 +206,11 @@ nav #publicar_nav a
 	font-size: 1.5em;
 	vertical-align: bottom;
 }
-
 #contenido .item .votacion .up:after
 {
 	color: red;
 	content: "\e601";
 }
-
 #contenido .item .votacion .down:after
 {
 	color: green;
