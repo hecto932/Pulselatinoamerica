@@ -1,11 +1,72 @@
 body
 {
-	text-align: center;
-}
-
-#container
-{
-	width: 700px;
+	font-family: "Comic sans ms", Arial;
 	margin: 0px auto;
 	text-align: left;
+	width: 700px;
+}
+#contenido
+{
+	margin-left: 225px;
+}
+footer
+{
+	background: #434343;
+	clear: both;
+	color: #A7A7A7;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%;
+}
+header
+{
+	background-color: #434343;
+	color: white;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+}
+header a span
+{
+	visibility: hidden;
+}
+header h1
+{
+	margin: 0px;
+}
+nav
+{
+	float: left;
+	padding:10px;
+	width: 200px;
+}
+
+nav ul
+{
+	font-size: 11pt;
+	margin-left: 10px;
+	list-style: none;
+	padding-left: 10px;
+	width: 180px;
+}
+nav ul li
+{
+	background-color: #666;
+	margin-bottom: 1em;
+	padding-left: 12px;
+}
+nav ul li a
+{
+	color: #ccc;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 20px;
+}
+nav ul li a:hover
+{
+	background: #000;
+	border-left: 10px solid #333;
+	color: #fff;
 }
